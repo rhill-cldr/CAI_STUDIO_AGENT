@@ -1,3 +1,7 @@
+# MDBook
+docs/current/book/
+docs/current/src/d2/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -278,3 +282,14 @@ db/
 # Node
 .nvm/
 re_configs/
+
+# Devenv
+.devenv*
+devenv.local.nix
+devenv.local.yaml
+
+# direnv
+.direnv
+
+# pre-commit
+.pre-commit-config.yaml
