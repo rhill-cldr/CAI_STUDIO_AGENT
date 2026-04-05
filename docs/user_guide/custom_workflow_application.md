@@ -2,6 +2,10 @@
 
 This guide discusses how to create your own applications and UIs to drive Agent Studio's deployed workflows using the API endpoint provided by each deployed workflow Application.
 
+> For telemetry pipeline details (OTel + Phoenix) and visual canvas architecture, see the [Developer's Guide](https://rhill-cldr.github.io/CAI_STUDIO_AGENT/). Key references:
+> - [Telemetry Pipeline](https://rhill-cldr.github.io/CAI_STUDIO_AGENT/architecture/telemetry.html)
+> - [Visual Canvas (XYFlow)](https://rhill-cldr.github.io/CAI_STUDIO_AGENT/architecture/visual-canvas.html)
+
 ## Overview
 
 Let's overview the full ecosystem that Agent Studio provides when adding the studio to your project:

@@ -1,5 +1,7 @@
 # Cloudera AI Agent Studio - Monitoring
 
+> For the full telemetry pipeline architecture (OpenTelemetry, OpenInference instrumentors, and the structured event stream), see [Telemetry Pipeline](https://rhill-cldr.github.io/CAI_STUDIO_AGENT/architecture/telemetry.html) in the Developer's Guide.
+
 We use [Phoenix](https://github.com/Arize-ai/phoenix) to instrument our workflows for observability.
 
 Phoenix application is set up as part of studio deployment steps. Agent Studio is dependant on Phoenix to be deployed and running before it can start monitoring workflows. All our workflows (whether in test mode or deployed) are kicked off asynchronously, and the traces flow into Phoenix. We tap into the Phoenix API to get the traces and display them in the studio.

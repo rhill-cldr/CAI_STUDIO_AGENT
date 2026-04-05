@@ -1,5 +1,7 @@
 # Cloudera AI Agent Studio - Deployments
 
+> For the deployment artifact format, CollatedInput schema, and deployment configuration reference, see the [Deployment Artifacts](https://rhill-cldr.github.io/CAI_STUDIO_AGENT/deployment/artifact-format.html) section of the Developer's Guide.
+
 ## Overview
 
 The deployment system in Cloudera AI Agent Studio provides a robust platform for deploying AI workflows as production-ready endpoints. When a workflow is deployed, it becomes a standalone workflow served by a [CML Workbench Model](https://docs.cloudera.com/machine-learning/cloud/models/topics/ml-models.html) and a [CML Workbench Application](https://docs.cloudera.com/machine-learning/cloud/applications/topics/ml-applications-c.html). The workbench model acts as the workflow engine (unit of work responsible for actually executing workflows) while the application provides a frontend to the deployed workflow.

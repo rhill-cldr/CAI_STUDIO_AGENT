@@ -2,6 +2,7 @@
 
 *Docs to come*
 
+For architecture reference and template specifications, see the [Developer's Guide](https://rhill-cldr.github.io/CAI_STUDIO_AGENT/).
 
 # Local Development for Agent Studio
 

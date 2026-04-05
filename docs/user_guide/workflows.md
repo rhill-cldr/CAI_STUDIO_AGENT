@@ -1,5 +1,7 @@
 # Cloudera AI Agent Studio - Workflows
 
+> For the template packaging specification (export/import ZIP format, manifest schema, and validation rules), see the [Developer's Guide](https://rhill-cldr.github.io/CAI_STUDIO_AGENT/).
+
 ## Overview
 
 Workflows are the core resource type of Agent Studio. A workflow represents a collaborative group of agents working together to achieve a set of tasks. Each workflow defines the strategy for task execution and agent collaboration.

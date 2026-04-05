@@ -4,6 +4,11 @@ Workflows can be shipped from outside of Agent Studio and can be deployed using 
 outside of the workflow builder UI. This allows customers to define workflows in a dedicated GitHub repository, for example, and use Agent Studio to deploy the workflows
 to highly available endpoints.
 
+> For the complete CollatedInput schema, deployment artifact format, and template ZIP packaging specification, see the [Developer's Guide](https://rhill-cldr.github.io/CAI_STUDIO_AGENT/). Key references:
+> - [CollatedInput Schema](https://rhill-cldr.github.io/CAI_STUDIO_AGENT/deployment/collated-input.html)
+> - [Deployment Artifact Format](https://rhill-cldr.github.io/CAI_STUDIO_AGENT/deployment/artifact-format.html)
+> - [Workflow Template ZIP Format](https://rhill-cldr.github.io/CAI_STUDIO_AGENT/templates/zip-format.html)
+
 ## CollatedInput Structure
 
 The `CollatedInput` is the core data structure that defines a complete workflow configuration. It serves as the serialized representation of all workflow components.

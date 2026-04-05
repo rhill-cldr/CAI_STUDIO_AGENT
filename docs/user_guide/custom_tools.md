@@ -1,6 +1,8 @@
 # Custom Tools in Agent Studio
 
-This guide will walk you through creating and using a custom tool within Agent Studio. We’ll cover the high-level anatomy of a tool, how to build one from scratch (based on the example code), and best practices for testing and validation.
+This guide will walk you through creating and using a custom tool within Agent Studio. We'll cover the high-level anatomy of a tool, how to build one from scratch (based on the example code), and best practices for testing and validation.
+
+> For the complete tool template specification (field-level schema, AST validation rules, and packaging requirements), see the [Tool Template Specification](https://rhill-cldr.github.io/CAI_STUDIO_AGENT/templates/tool-spec.html) in the Developer's Guide.
 
 
 ## Anatomy of a Tool

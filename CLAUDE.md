@@ -6,6 +6,8 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 Cloudera AI Agent Studio — a full-stack platform for building, testing, and deploying AI agents and workflows. Python gRPC backend + Next.js frontend. Supports CrewAI and LangGraph workflow frameworks. Deploys as a runtime image on Cloudera AI.
 
+**Developer's Guide**: https://rhill-cldr.github.io/CAI_STUDIO_AGENT/ — architecture reference, template packaging specifications, deployment artifacts, and validation SDK guidance. Source lives in `docs/current/` (mdbook).
+
 ## Common Commands
 
 ### Testing

@@ -19,7 +19,7 @@ Cloudera AI's Agent Studio is a platform for building, testing, and deploying AI
 - Users can create custom agents, tools and workflows. Test the workflows in the Studio. Save them as templates for reuse.
 - Workflows can be deployed as long-running endpoints ready for production use.
 
-### [Release Notes](./docs/release_notes.md)
+### [Developer's Guide](https://rhill-cldr.github.io/CAI_STUDIO_AGENT/) | [Release Notes](./docs/release_notes.md)
 
 ## Getting Started
 
@@ -41,12 +41,18 @@ These docs are targeted for individuals managing the Agent Studio instance itsel
 ### For Agent Studio Tool Developers
 These docs are targeted for individuals who are building custom Agent Studio tools.
  - [Creating Custom Tools](./docs/user_guide/custom_tools.md)
+ - [Tool Template Specification](https://rhill-cldr.github.io/CAI_STUDIO_AGENT/templates/tool-spec.html) (Developer's Guide)
+ - [Template ZIP Format](https://rhill-cldr.github.io/CAI_STUDIO_AGENT/templates/zip-format.html) (Developer's Guide)
 
 ### For [Model Context Protocol(MCP)](https://modelcontextprotocol.io/introduction) Users
 These docs are targetted towards individuals looking to connect MCP servers to agents in workflows.
  - [MCP User Guide](./docs/user_guide/mcp.md)
  - [Barebones example of using a MCP Server in Agent Studio](./docs/user_guide/mcp_example.md)
 
+### For Harness & SDK Developers
+These docs are targeted for engineers building external harnesses, validation SDKs, or CI/CD pipelines for Agent Studio templates.
+ - [Developer's Guide](https://rhill-cldr.github.io/CAI_STUDIO_AGENT/) — Architecture reference, template packaging specifications, deployment artifacts, and validation SDK guidance
+
 ### Airgapped Environment Support
 
-Installation in airgapped environment has been simplified by publishing the agent studio as a custom runtime image. You can read more about setup in airgapped environment here: [Airgap Setup](./docs/user_guide/airgap_installation.md) 
+Installation in airgapped environment has been simplified by publishing the agent studio as a custom runtime image. You can read more about setup in airgapped environment here: [Airgap Setup](./docs/user_guide/airgap_installation.md)
