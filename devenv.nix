@@ -6,8 +6,16 @@
 
   # https://devenv.sh/packages/
   packages = with pkgs; [
-    gh
+    # Core
     git
+    gh
+    jq
+    just
+
+    # Kerberos / Security
+    krb5
+    cyrus_sasl
+    openssl
 
     # gRPC
     grpcurl
